@@ -10,7 +10,7 @@ namespace _06Publicaciones.config
         static Conexion()
         {
             // Aquí puedes establecer tu cadena de conexión. Se recomienda obtenerla de un archivo de configuración o variables de entorno.
-            connectionString = "Server=.;Database=pubs;User Id=sa;Password=123;";
+            connectionString = "Server=DESKTOP-0OS6OUS;Database=pubs;User Id=sa;Password=SebastianCedillo9;";
         }
 
         public static SqlConnection GetConnection()
