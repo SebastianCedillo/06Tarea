@@ -71,6 +71,8 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Autores.cs" />
+    <Compile Include="Models\CiudadesModel.cs" />
+    <Compile Include="Models\PaisModel.cs" />
     <Compile Include="Models\Titulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +81,18 @@
     </Compile>
     <Compile Include="Views\Autores\frm_Autores.Designer.cs">
       <DependentUpon>frm_Autores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ciudades\frm_Ciudades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ciudades\frm_Ciudades.Designer.cs">
+      <DependentUpon>frm_Ciudades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ciudades\frm_Lista_Ciudades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ciudades\frm_Lista_Ciudades.Designer.cs">
+      <DependentUpon>frm_Lista_Ciudades.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Empleados\frm_empleados.cs">
       <SubType>Form</SubType>
@@ -125,11 +139,20 @@
     <EmbeddedResource Include="Views\Autores\frm_Autores.resx">
       <DependentUpon>frm_Autores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ciudades\frm_Ciudades.resx">
+      <DependentUpon>frm_Ciudades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ciudades\frm_Lista_Ciudades.resx">
+      <DependentUpon>frm_Lista_Ciudades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Empleados\frm_empleados.resx">
       <DependentUpon>frm_empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\General.resx">
       <DependentUpon>General.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ventas\frm_ventas.resx">
+      <DependentUpon>frm_ventas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
