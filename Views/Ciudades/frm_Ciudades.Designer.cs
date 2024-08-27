@@ -118,6 +118,7 @@ namespace _06Publicaciones.Views.Ciudades
             this.MinimizeBox = false;
             this.Name = "frm_Ciudades";
             this.Text = "Formulario de Ciudades";
+            this.Load += new System.EventHandler(this.frm_Ciudades_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
