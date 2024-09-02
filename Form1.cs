@@ -22,6 +22,31 @@ namespace _06Publicaciones
             General _General = new General();
             _General.Show();
             this.Hide();
+            /*
+            //admin=> usuarios   
+                      lectores / puerto com6 => garita
+                      lectores / puerto com6 => bodega
+
+            //garita
+            //bodega
+            //envios
+
+            base datos
+            usuarios
+            roles
+            productos
+            categoriaproductos
+            vehiculos
+            cliente
+            conductorvehiculo
+            stock
+            ordendespacho
+            lectores
+            departamento =->bodega
+                            garita
+                            despachos
+
+            */
         }
     }
 }

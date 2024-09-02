@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 namespace _06Publicaciones.config
 {
-    public static class Conexion
+        public static class Conexion
     {
         private static readonly string connectionString;
 
